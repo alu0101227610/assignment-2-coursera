@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Times", cursive, serif;
+  font-family: "Times", serif;
 }
 
 .row {
@@ -17,8 +17,6 @@ body {
 .title {
   margin-bottom: 30px;
   text-align: center;
-  color: rgb(60, 1, 116);
-  font-size: 50px;
 }
 
 .container {
@@ -30,10 +28,16 @@ body {
 .box {
   position: relative;
   top: 0;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(204, 167, 211);
   margin: 15px;
   padding: 25px;
   border:3px solid rgb(11, 0, 15);
+}
+
+.box p {
+  margin-top: 18px;
+  text-align: justify;
+  font-size: 100%;
 }
 
 .content-name {
@@ -43,12 +47,6 @@ body {
   padding: 6px 90px;
   border-left: 2px solid black;
   border-bottom: 2px solid black;
-}
-
-.box p {
-  margin-top: 18px;
-  text-align: justify;
-  font-size: 100%;
 }
 
 #firstElement {
