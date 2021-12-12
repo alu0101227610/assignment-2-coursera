@@ -1,67 +1,67 @@
-/*Assignment for module 2 styling sheet*/
-
-* {
+*{
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0;
 }
 
-body {
-  font-family: "Times", serif;
+body{
+  font-family: 'Lato', sans-serif;  
 }
 
-.row {
+.row{
   width: 100%;
 }
 
-.title {
-  margin-bottom: 30px;
+.title{
   text-align: center;
+  margin-bottom: 30px;
 }
 
-.container {
-  position: relative;
-  top:60px;
-  margin: 15px;
+.container{
+ position: relative;
+ top:60px;
+ margin: 15px; 
 }
 
-.box {
+.item {
   position: relative;
   top: 0;
-  background-color: rgb(204, 167, 211);
+  background-color:#999999;
   margin: 15px;
   padding: 25px;
-  border:3px solid rgb(11, 0, 15);
+  border: 3px solid #000;
 }
 
-.box p {
+.item p {
   margin-top: 18px;
   text-align: justify;
-  font-size: 100%;
+  font-size:100%;
 }
 
-.content-name {
+.firstTitle {
   position: absolute;
-  top: 0%;
-  right: 0%;
+  top:0;
+  right: 0px;
+  background: green; 
   padding: 6px 90px;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
 }
 
-#firstElement {
-  background-color: rgb(247, 183, 247);
+#firstTitle {
+  background-color: #D59898;
+} 
+
+#secondTitle {
+  background-color: #C14543;
 }
 
-#secondElement {
-  background-color: rgb(135, 75, 143);
+#thirdTitle {
+  background-color: #E5D198;
 }
 
-#thirdElement {
-  background-color: rgb(145, 96, 202);
-}
-
-@media (min-width:992px) {
+/*------ Bigger screens ------*/
+@media (min-width: 992px){
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;  
   }
@@ -101,9 +101,12 @@ body {
   .col-lg-12 {
     width: 100%;
   }
+
 }
 
-@media (min-width:768px) and (max-width:991px) {
+
+/*------ Medium Screens ------*/
+@media (min-width: 768px) and (max-width: 991px){
   .col-lg-4 {
     width: 50%;
     float: left;
@@ -114,7 +117,9 @@ body {
  }
 }
 
-@media (min-width: 0px) and (max-width:767px) {
+
+/*------ Small Screens ------*/
+@media (max-width: 767px){
   .col-lg-4{
     width: 100%;
     float: left;
