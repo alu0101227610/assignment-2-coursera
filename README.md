@@ -7,3 +7,5 @@ Link to the website: https://alu0101227610.github.io/assignment-2-coursera/
 ### Brief description
  
 This took me around 2 or 3 hours, I first created the _hmtl_ file where I created the 3 boxes where I decided to use Authors instead of it being a menu, just for a change. I also decided to change the colors and some other things in the css styling sheet. The most challenging part was definitely the responsive development.
+
+Some tools I used for the development of this "website" were _visual studio code_ and _browser-sync_. 
