@@ -1,5 +1,4 @@
 /*Assignment for module 2 styling sheet*/
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -25,7 +24,7 @@ body {
   margin: 15px;
 }
 
-.item {
+.box {
   position: relative;
   top: 0;
   background-color: rgb(204, 167, 211);
@@ -34,7 +33,7 @@ body {
   border:3px solid rgb(11, 0, 15);
 }
 
-.item p {
+.box p {
   margin-top: 18px;
   text-align: justify;
   font-size: 100%;
