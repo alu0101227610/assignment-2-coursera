@@ -26,7 +26,7 @@ body{
 .item {
   position: relative;
   top: 0;
-  background-color:#926ca0;
+  background-color:#999999;
   margin: 15px;
   padding: 25px;
   border: 3px solid #000;
@@ -42,22 +42,22 @@ body{
   position: absolute;
   top:0;
   right: 0px;
+  background: green; 
   padding: 6px 90px;
-  background: green;
   border-left: 2px solid #000;
   border-bottom: 2px solid #000;
 }
 
 #firstTitle {
-  background-color: #c498d5;
+  background-color: #D59898;
 } 
 
 #secondTitle {
-  background-color: #8b5599;
+  background-color: #C14543;
 }
 
 #thirdTitle {
-  background-color: #8471b9;
+  background-color: #E5D198;
 }
 
 /*------ Bigger screens ------*/
