@@ -40,6 +40,15 @@ body {
   font-size: 100%;
 }
 
+.itemTitle{
+  position: absolute;
+  top:0;
+  right: 0px;
+  background: rgb(98, 0, 128); 
+  padding: 6px 90px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
 
 #firstTitle {
   background-color: rgb(247, 183, 247);
