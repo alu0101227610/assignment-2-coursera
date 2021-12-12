@@ -1,67 +1,59 @@
-*{
+/*Assignment for module 2 styling sheet*/
+
+* {
   box-sizing: border-box;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-  font-family: 'Lato', sans-serif;  
+body {
+  font-family: "Times", serif;
 }
 
-.row{
+.row {
   width: 100%;
 }
 
-.title{
-  text-align: center;
+.title {
   margin-bottom: 30px;
+  text-align: center;
 }
 
-.container{
- position: relative;
- top:60px;
- margin: 15px; 
+.container {
+  position: relative;
+  top:60px;
+  margin: 15px;
 }
 
 .item {
   position: relative;
   top: 0;
-  background-color:#999999;
+  background-color: rgb(204, 167, 211);
   margin: 15px;
   padding: 25px;
-  border: 3px solid #000;
+  border:3px solid rgb(11, 0, 15);
 }
 
 .item p {
   margin-top: 18px;
   text-align: justify;
-  font-size:100%;
+  font-size: 100%;
 }
 
-.firstTitle {
-  position: absolute;
-  top:0;
-  right: 0px;
-  background: green; 
-  padding: 6px 90px;
-  border-left: 2px solid #000;
-  border-bottom: 2px solid #000;
-}
 
 #firstTitle {
-  background-color: #D59898;
-} 
+  background-color: rgb(247, 183, 247);
+}
 
 #secondTitle {
-  background-color: #C14543;
+  background-color: rgb(135, 75, 143);
 }
 
 #thirdTitle {
-  background-color: #E5D198;
+  background-color: rgb(145, 96, 202);
 }
 
-/*------ Bigger screens ------*/
-@media (min-width: 992px){
+@media (min-width:992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;  
   }
@@ -101,12 +93,9 @@ body{
   .col-lg-12 {
     width: 100%;
   }
-
 }
 
-
-/*------ Medium Screens ------*/
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width:768px) and (max-width:991px) {
   .col-lg-4 {
     width: 50%;
     float: left;
@@ -117,9 +106,7 @@ body{
  }
 }
 
-
-/*------ Small Screens ------*/
-@media (max-width: 767px){
+@media (min-width: 0px) and (max-width:767px) {
   .col-lg-4{
     width: 100%;
     float: left;
